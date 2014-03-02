@@ -1,0 +1,14 @@
+The situation:
+
+There is a revolting line of 16 cases, arround this line there is eight robots, one who insert new basic components, one who get out the finished products, the six others are able to perform one operation.
+On this line there is four products which are created each one need different basic components and différents operations to be finished:
+Product1: 3 components C1 and the following serie of operations: op1 - op2 - op3 - op5.
+Product2: 3 components C2 and the following serie of operations: op2 - op4 - op1 - op6.
+Product3: 1 components C3 and the following serie of operations: op1 - op3 - op5 - op1 - op3.
+Product4: 2 components C4 and the following serie of operations: op4 - op6 - op1.
+
+For the project there is a fixed number of products which need to be done: P1-> 10; P2-> 15; P3-> 12; P4-> 8.
+
+In my implementation I decided to focus on the fact that all products will be finished, even if there is million of them, instead of focus on the execution time. So this simulation is slow but it does its work for sure.
+
+If you want to make the execution faster just comment all sleep.
